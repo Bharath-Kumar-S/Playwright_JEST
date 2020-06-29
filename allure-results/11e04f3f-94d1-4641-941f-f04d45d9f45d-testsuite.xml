@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593416116921' stop='1593416124996'>
+    <name>The internet app Form login</name>
+    <title>The internet app Form login</title>
+    <test-cases>
+        <test-case start='1593416117536' status='passed' stop='1593416124995'>
+            <name>Basic form login</name>
+            <title>Basic form login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

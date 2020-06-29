@@ -1,0 +1,64 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593416968425' stop='1593416978151'>
+    <name>The internet app Form login</name>
+    <title>The internet app Form login</title>
+    <test-cases>
+        <test-case start='1593416969128' status='passed' stop='1593416976638'>
+            <name>Basic form login</name>
+            <title>Basic form login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1593416976638' status='failed' stop='1593416978149'>
+            <name>Basic checkboxes check</name>
+            <title>Basic checkboxes check</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='The internet app Form login Basic checkboxes check' source='3ed8987d-00dd-4ebc-984b-f02378a38388-attachment.png' type='image/png' size='27496'/>
+            </attachments>
+            <failure>
+                <message>Error: Evaluation failed: DOMException: Failed to execute 'querySelector' on 'Document': '[input:nth-child(1)]' is not a valid selector.
+                    at Object.query (__playwright_evaluation_script__:256:33)
+                    at SelectorEvaluator._querySelectorRecursively (__playwright_evaluation_script__:912:51)
+                    at SelectorEvaluator.querySelector (__playwright_evaluation_script__:907:21)
+                    at __playwright_evaluation_script__:2:57
+                    at __playwright_evaluation_script__:2:98</message>
+                <stack-trace>Error: Evaluation failed: DOMException: Failed to execute 'querySelector' on 'Document': '[input:nth-child(1)]' is not a valid selector.
+                    at Object.query (__playwright_evaluation_script__:256:33)
+                    at SelectorEvaluator._querySelectorRecursively (__playwright_evaluation_script__:912:51)
+                    at SelectorEvaluator.querySelector (__playwright_evaluation_script__:907:21)
+                    at __playwright_evaluation_script__:2:57
+                    at __playwright_evaluation_script__:2:98
+                    at CRExecutionContext.evaluate (D:\playwright\node_modules\playwright-core\lib\chromium\crExecutionContext.js:82:23)
+                    at FrameManager.waitForSignalsCreatedBy (D:\playwright\node_modules\playwright-core\lib\frames.js:81:28)
+                    at FrameExecutionContext._doEvaluateInternal (D:\playwright\node_modules\playwright-core\lib\dom.js:42:16)
+                    at Selectors._query (D:\playwright\node_modules\playwright-core\lib\selectors.js:81:24)
+                  -- ASYNC --
+                    at Frame.&lt;anonymous> (D:\playwright\node_modules\playwright-core\lib\helper.js:63:23)
+                    at Page.$ (D:\playwright\node_modules\playwright-core\lib\page.js:129:33)
+                    at Page.$ (D:\playwright\node_modules\playwright-core\lib\helper.js:64:31)
+                    at _callee8$ (D:\playwright\__tests__\pages\general.page.js:66:35)
+                    at tryCatch (D:\playwright\node_modules\regenerator-runtime\runtime.js:45:40)
+                    at Generator.invoke [as _invoke] (D:\playwright\node_modules\regenerator-runtime\runtime.js:274:22)
+                    at Generator.prototype.&lt;computed> [as next] (D:\playwright\node_modules\regenerator-runtime\runtime.js:97:21)
+                    at asyncGeneratorStep (D:\playwright\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+                    at _next (D:\playwright\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+                    at runNextTicks (internal/process/task_queues.js:62:5)
+                  -- ASYNC --
+                    at Page.$ (D:\playwright\node_modules\playwright-core\lib\helper.js:63:23)
+                    at _callee8$ (D:\playwright\__tests__\pages\general.page.js:66:35)
+                    at tryCatch (D:\playwright\node_modules\regenerator-runtime\runtime.js:45:40)
+                    at Generator.invoke [as _invoke] (D:\playwright\node_modules\regenerator-runtime\runtime.js:274:22)
+                    at Generator.prototype.&lt;computed> [as next] (D:\playwright\node_modules\regenerator-runtime\runtime.js:97:21)
+                    at asyncGeneratorStep (D:\playwright\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+                    at _next (D:\playwright\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+                    at runNextTicks (internal/process/task_queues.js:62:5)
+                    at processImmediate (internal/timers.js:429:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

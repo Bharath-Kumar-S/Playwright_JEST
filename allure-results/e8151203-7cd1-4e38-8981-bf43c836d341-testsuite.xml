@@ -1,0 +1,54 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1593417454685' stop='1593417464800'>
+    <name>The internet app Form login</name>
+    <title>The internet app Form login</title>
+    <test-cases>
+        <test-case start='1593417455293' status='passed' stop='1593417463311'>
+            <name>Basic form login</name>
+            <title>Basic form login</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1593417463311' status='failed' stop='1593417464798'>
+            <name>Basic checkboxes check</name>
+            <title>Basic checkboxes check</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='The internet app Form login Basic checkboxes check' source='443ab893-e4a7-4e12-b8b4-815c5347dcdd-attachment.png' type='image/png' size='27496'/>
+            </attachments>
+            <failure>
+                <message>Expected value   true
+                Received:
+                  false
+                
+                Message:
+                  expected false to be true
+                    at _callee2$ (D:\playwright\__tests__\utilities\check.js:25:12)
+                    at tryCatch (D:\playwright\node_modules\regenerator-runtime\runtime.js:45:40)
+                    at Generator.invoke [as _invoke] (D:\playwright\node_modules\regenerator-runtime\runtime.js:274:22)
+                    at Generator.prototype.&lt;computed> [as next] (D:\playwright\node_modules\regenerator-runtime\runtime.js:97:21)
+                    at asyncGeneratorStep (D:\playwright\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+                    at _next (D:\playwright\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)</message>
+                <stack-trace>Error: Expected value   true
+                Received:
+                  false
+                
+                Message:
+                  expected false to be true
+                    at _callee2$ (D:\playwright\__tests__\utilities\check.js:25:12)
+                    at tryCatch (D:\playwright\node_modules\regenerator-runtime\runtime.js:45:40)
+                    at Generator.invoke [as _invoke] (D:\playwright\node_modules\regenerator-runtime\runtime.js:274:22)
+                    at Generator.prototype.&lt;computed> [as next] (D:\playwright\node_modules\regenerator-runtime\runtime.js:97:21)
+                    at asyncGeneratorStep (D:\playwright\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+                    at _next (D:\playwright\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+                    at Env.fail (D:\playwright\node_modules\jest-jasmine2\build\jasmine\Env.js:722:61)
+                    at Function.next.fail (D:\playwright\node_modules\jest-jasmine2\build\queueRunner.js:40:22)
+                    at D:\playwright\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:114:18</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
