@@ -60,7 +60,7 @@
   "name": "playwright_e2e_test",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Bharath-Kumar-S/Playwright_JEST.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
