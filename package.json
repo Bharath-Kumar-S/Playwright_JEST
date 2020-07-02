@@ -51,7 +51,7 @@
     "jest",
     "playwright"
   ],
-  "license": "MIT",
+  "license": "ISC",
   "lint-staged": {
     "*.{js,json,md}": [
       "prettier --write"
