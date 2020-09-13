@@ -29,7 +29,7 @@
     "jest-allure": "^0.1.1",
     "jest-image-snapshot": "^4.0.2",
     "lint-staged": "10.2.2",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "prettier": "2.0.4",
     "pretty-quick": "2.0.1",
     "puppeteer-select": "^1.0.3",
